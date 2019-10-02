@@ -31,7 +31,7 @@ $(document).ready(function (){
   $('img:last').attr('width','50');
   */
 
-  /*  //EJEMPLO 2
+   //EJEMPLO 2
   var parrafo = $('#resultado p');
   $('.btn-primary').click(function(){
     parrafo.addClass('display-4');
@@ -53,7 +53,7 @@ $(document).ready(function (){
     if($('#lbl-text').val() === ""){$('#casa').html("Estoy esperando2...");}
     if($('#lbl-text').val() === ""){$('#casa2').html("Estoy esperando3...");}
   })
-  */
+  
 
   /*EJEMPLO 3
   $('#formulario').submit(function(evento){
@@ -78,7 +78,7 @@ $(document).ready(function (){
   })
   */
 
-  /*  //EJEMPLO 5 */
+  /*  //EJEMPLO 5 
   var resultado = $('#res');
   $('.btn-primary').click(function(){
     resultado.animate({
@@ -94,7 +94,7 @@ $(document).ready(function (){
         width:'-150px'
       },'3000')
     });
-  })
+  })*/
 
 
 });
